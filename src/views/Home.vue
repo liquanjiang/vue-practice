@@ -13,6 +13,10 @@ export default {
   name: 'Home',
   components: {
     HelloWorld
+  },
+  mounted () {
+    // eslint-disable-next-line no-undef
+    L2Dwidget.init()
   }
 }
 </script>
